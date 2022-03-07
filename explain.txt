@@ -1,0 +1,8 @@
+https://drive.google.com/file/d/1HM5ciwrHPqX_qsnG0r3lTG4oZtANP0qX/view?usp=sharing
+AIzaSyC2LB-Zc4rFXDtVrAUIADizaTY_qN39jv4
+
+curl \
+  'https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=tesla&type=video&key=[YOUR_API_KEY]' \
+  --header 'Authorization: Bearer [YOUR_ACCESS_TOKEN]' \
+  --header 'Accept: application/json' \
+  --compressed
